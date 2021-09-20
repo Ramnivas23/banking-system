@@ -1,0 +1,30 @@
+.header {
+    text-align: center;
+    /*margin-top: 5px; */
+    background-color: #6fe5fa;
+    height: 100px;
+    font-style: bold;
+  }
+  h2{
+   transform: translate(1%, 80%);
+  }
+ .footer {
+    background-color: black;
+    height: 70px;
+    font-style: italic;
+ /*   margin-left: 15px;
+    margin-right: 15px; */
+  }
+  
+ .position {
+    margin-top: 205px;
+    margin-bottom:220px;
+ }
+ body {
+    background-color:white;
+    
+  }
+
+ .footer_head {
+    text-align: center;
+ }

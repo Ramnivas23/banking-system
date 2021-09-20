@@ -1,0 +1,257 @@
+.wrapper img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    /* border: 10px solid #FEDE00; */
+    box-shadow: 0 0 6px 1px rgb(204, 204, 204);
+}
+.wrapper {
+    display: flex;
+    width: 90%;
+    margin-top: 35px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+    box-shadow: 0 0 6px 1px rgb(204, 204, 204);
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 350px;
+    background-color: #F9F9F9;
+}
+
+.me h2 {
+    margin-top: 20px;
+}
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: black;
+}
+.fab {
+    font-size: 30px;
+}
+
+.fa-linkedin {
+    margin-right: 10px;
+    color: #0e76e8;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.project {
+    padding-top: 30px;
+    padding-left: 18px;
+    border-left: 1px solid rgb(230, 230, 230);
+    background-color: #DEEDF0;
+}
+.main-line {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+p {
+    line-height: 1.5;
+}
+.project h4 {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 8px;
+}@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+li, .link {
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#header { 
+    background-color:red;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 0 5px 1px rgb(218, 218, 218);
+}
+.logo {
+    margin-left: 50px;
+    width: 34px;
+    height: 34px;
+    padding-bottom: 2px;
+}
+.title {
+    margin-right: auto;
+    cursor: pointer;
+    padding-left: 8px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0 20px;
+}
+p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 90px;
+}
+
+.btn1 {
+    display: block;
+    outline: none;
+    width: 270px;
+    height: 55px;
+    background-color: red ;
+    border-style: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1px rgb(204, 204, 204);
+    transition: background-color 0.2s ease;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 70px;
+}
+a{
+    text-decoration: none;
+} 
+.btn1:hover{
+    background-color:#007e9b;
+    color: white;
+}form {
+    width:80%;
+    margin-left: 50%;
+    margin-top: 60px;
+    transform: translate(-50%);
+}
+#to {
+  margin-bottom: 15px;
+}
+
+#users-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+#users-table td, #users-table th {
+    text-align: left;
+    padding: 12px;
+}
+
+#users-table td {
+    font-size: 16px;
+    font-weight:100;
+}
+
+#customers-table th {
+    border-bottom: 0.5px solid rgb(158, 158, 158);
+    font-size: 17px;
+    padding:40px;
+}
+.drop-down, #amount {
+    width: 400px;
+    height: 40px;
+    border-style: none;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1px rgb(204, 204, 204);
+}
+.transfer-btn {
+    outline: none;
+    width: 180px;
+    height: 50px;
+    background-color: red ;
+    border-style: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1px rgb(204, 204, 204);
+    transition: background-color 0.2s ease;
+    margin-left: 100px;
+}
+.transfer-btn:hover {
+    background-color:#007e9b;
+    color: white;
+}
+
+#amount {
+    display: block;
+    width: 120px;
+    font-size: 15px;
+    margin-top: 25px;
+    cursor:auto;
+}
+/*
+#msg {
+    margin-top: 25px;
+    height: 80px;
+}
+#msg h3 {
+    font-style: italic;
+}
+#msg p {
+    margin-top: 10px;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, "Arial";
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.c-heading {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+hr {
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 5px;
+    transform: translate(-50%, -50%);
+    background-color:rgba(197, 197, 197, 0.1);
+    opacity: 40%;
+}
+.header {
+    
+    margin-top: 0; 
+    background-color:  ;
+    height: 150px;
+    font-style: bold;
+    margin-left:0;
+    margin-right:0;
+  }
